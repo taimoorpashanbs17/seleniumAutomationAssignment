@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite thread-count="1" verbose="1" name="Chapter 1 Testing" annotations="JDK" parallel="tests">
+
+    <test name="Test">
+        <classes>
+            <class name="methods.Chapter1TextVerificationTest"/>
+        </classes>
+    </test>
+</suite>
